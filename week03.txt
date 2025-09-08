@@ -1,3 +1,35 @@
 리눅스 명령어
+
+
 echo "출력할 내용" >> 파일명
+	출력하기
+rm 파일명
+	파일 삭제
+
+
 깃 명령어
+
+
+Git branch -M main
+	브랜치 이름을 main으로 변경함 (윤리적 문제 방지)
+Git remote -v
+	현재 설정된 원격 리포지토리 주소 보기
+Git remote add origin https://깃허브리포지토리주소
+	위 주소를 원경 리포지토리로 설정
+Git push -u origin main
+	
+Git 
+
+$ echo "Hello Go"  그냥 문장 출력
+$ echo "Hello Go">> LEADME.md  LEADME.md 파일 만들고 문장 넣음
+rm 파일명 파일 삭제
+git add README.md
+git branch -M main  브랜치 이름 main으로 변경
+git remote add origin 깃허브 주소  origin은 원격 저장소
+git remote -v  원격 연결 주소 확인
+git clone https://github.com/supersh0106/os-2025a.git  전부 가져옴
+git clone 원격리포지터리 주소 .  현재 파일에 넣음
+git push -u origin main
+git remove origin
+git remote remove origin
+git push --set-upstream origin main ==git push -u origin main
