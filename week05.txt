@@ -1,0 +1,9 @@
+리눅스 명령어
+- history | less
+
+깃 명령어
+- git commit -amend -m "수정할 커밋 메시지"
+- git reset --hard HEAD~1 : 최근 커밋부터 숫자만큼의 커밋내용을 삭제
+- git fetch
+- git pull
+- git push -f 강제 푸쉬 (팀 리포에선 권장X)
