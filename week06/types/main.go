@@ -2,11 +2,20 @@ package main
 
 import (
 	"fmt"
-	"math"
-	"strings"
+	"reflect"
 )
 
 func main() {
-	fmt.Println(math.Ceil(2.31))
-	fmt.Println(strings.Title("kim seong hyun"))
+	// var name string
+	// name = "Kim seong hyun"
+
+	// var name = "Kim seong hyun"
+
+	// name := "Kim seong hyun"
+
+	// name := 2.71
+
+	var name float64
+	name = 2.71
+	fmt.Println(name, reflect.TypeOf(name))
 }
