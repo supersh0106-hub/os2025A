@@ -1,9 +1,17 @@
+Go 명령어
+go mod init 프로젝트폴더명
+    mod 파일 생성
+go run 파일명.go
+    단순 실행
+go build 파일명.go
+    exe 파일 생성
+
+
 리눅스 명령어
-- history | less
+- cp 원본파일 복사본파일
 
 깃 명령어
-- git commit -amend -m "수정할 커밋 메시지"
-- git reset --hard HEAD~1 : 최근 커밋부터 숫자만큼의 커밋내용을 삭제
-- git fetch
-- git pull
-- git push -f 강제 푸쉬 (팀 리포에선 권장X)
+
+기타
+.gitignore 파일 생성 (*.exe)
+    git에서 무시할 파일 지정
